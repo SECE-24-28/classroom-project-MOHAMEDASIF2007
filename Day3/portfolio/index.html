@@ -1,0 +1,121 @@
+<html>
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+        *{
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+            font-family: "Georgia", serif;
+        }
+
+        body {
+            overflow: hidden;
+        }
+
+        /* NAVBAR */
+        .nav{
+            background-color: #5A3E36;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* TOP MENU FONT CHANGED */
+        .nav div a{
+            font-family: "Poppins", sans-serif;   /* NEW FONT */
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 600;                      /* Bolder for clean look */
+            font-size: 18px;
+        }
+
+        .nav div{
+            width: 20%;
+            text-align: center;
+        }
+
+        .nav div a:hover {
+            color: #F2E6D8;
+        }
+
+        /* CONTENT SECTION */
+        .main{
+            width: 100%;
+            height: calc(100vh - 60px);
+            display: flex;
+        }
+
+        .photo{
+            width: 35%;
+            background-color: #F2E6D8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo img{
+            width: 90%;
+            height: 90%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .content{
+            width: 65%;
+            background-color: #FFF7F2;
+            padding: 40px;
+            color: #3C2F2E;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h2{
+            font-size: 32px;
+            color: #B35340;
+            margin-bottom: 15px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+
+<body>
+    <div class="nav">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="qualification.html">Qualification</a></div>
+        <div><a href="projects.html">Projects</a></div>
+        <div><a href="certifications.html">Certifications</a></div>
+        <div><a href="contact.html">Contact Me</a></div>
+    </div>
+
+    <div class="main">
+        <div class="photo">
+            <img src="main2.jpg" alt="My Photo">
+        </div>
+
+        <div class="content">
+            <h2>About Me</h2>
+            <p>
+                I’m Mohamed Asif, an IT student and passionate full-stack developer who loves turning ideas 
+                into meaningful digital experiences. I aim to build solutions that genuinely help people in 
+                their daily lives. Over the years, I’ve developed projects—from smart attendance systems using 
+                facial recognition to campus platforms like blood donation management and StubaZaar.
+                <br><br>
+                I enjoy backend and frontend development, with experience in Java, Spring Boot, Python, 
+                OpenCV, MySQL, HTML, CSS, and MERN basics. I constantly explore new technologies and 
+                improve my problem-solving skills.
+                <br><br>
+                My goal is to become a developer who builds real-world solutions that create a positive 
+                impact and improve everyday life.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

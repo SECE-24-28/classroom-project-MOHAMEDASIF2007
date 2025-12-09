@@ -1,0 +1,26 @@
+<style>
+    .box{
+        width:50px;
+        height: 50px;
+        background:rgb(0, 251, 255);
+        animation :move 3s ease infinite alternate-reverse;
+    }
+    .box2{
+        width:50px;
+        height: 50px;
+        background:red;
+        animation :run 3s ease infinite alternate;
+    }
+    @keyframes move{
+        from{ transform: translateX(500px);}
+        to{ transform: translateX(100px);}
+    }
+    @keyframes run{
+        from{ transform: translateY(20px);}
+        to{ transform: translateY(100px);}
+    }
+</style>
+<div class = "box">
+    
+</div>
+<div class = "box2"></div>
